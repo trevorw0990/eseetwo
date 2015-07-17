@@ -21,6 +21,7 @@ public class EC2Controller {
 		return instanceList.getAllInstances();
 	}
 
+
 	@RequestMapping("/instances/byId/{id}")
 	public List<Instance> getInstanceById(@PathVariable("id") String instanceId) {
 		return instanceList.getInstanceById(instanceId);
