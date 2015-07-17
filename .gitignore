@@ -1,9 +1,10 @@
 #Java\mvn Ignores
 *.class
-.project/
-.classpath/
+classpath
+.project
 .settings/
 target/
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
